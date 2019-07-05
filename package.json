@@ -1,6 +1,6 @@
 {
   "name": "jfaker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate randomized data in over 70 different categories",
   "main": "index.js",
   "scripts": {

@@ -1,16 +1,16 @@
-# js-faker
+# jfaker
 Generate fake data, great for databases! Ported from stympy's Ruby gem: (https://github.com/stympy/faker)
 
 # Usage
 Install the package
 
 ```
-$ npm i js-faker
+$ npm i jfaker
 ```  
 
-Require then use js-faker in your JavaScript files
+Require then use jfaker in your JavaScript files
 ```js
-const faker = require('js-faker')
+const faker = require('jfaker')
 
 
 let pokemon = faker.pokemon.names()
@@ -22,11 +22,11 @@ let boop = faker.dog.meme_phrase()
 
 Only 78 of 148 categories have been ported so for because of the way I have decided to extract the data and discrepencies with how the data is stored in Stympy's gem.
 
-If you find any bugs or have any suggestions you can let me know here: https://github.com/timwaldron/js-faker/issues
+If you find any bugs or have any suggestions you can let me know here: https://github.com/timwaldron/jfaker/issues
 
 # Categories
 
-    * js-faker
+    * jfaker
 
         *  address
             *  city_prefix

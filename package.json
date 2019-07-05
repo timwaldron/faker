@@ -1,7 +1,7 @@
 {
-  "name": "faker",
+  "name": "faker-js",
   "version": "1.0.0",
-  "description": "Generate fake data in Node.js",
+  "description": "Generate randomized data in over 70 different categories",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/timwaldron/faker.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["generate", "data", "seed", "spoof", "fake", "local"],
+  "author": "Timothy Waldron <tim@waldron.im> (https://waldron.im)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/timwaldron/faker/issues"

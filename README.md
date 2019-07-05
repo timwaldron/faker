@@ -24,7 +24,7 @@ Only 78 of 148 categories have been ported so for because of the way I have deci
 
 If you find any bugs or have any suggestions you can let me know here: https://github.com/timwaldron/jfaker/issues
 
-# Categories
+# Categories (v1.0.0)
 
     * jfaker
 

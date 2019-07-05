@@ -10,13 +10,19 @@
     "type": "git",
     "url": "git+https://github.com/timwaldron/faker.git"
   },
-  "keywords": ["data", "generate", "seed", "spoof", "fake", "local"],
+  "keywords": [
+    "data",
+    "generate",
+    "seed",
+    "spoof",
+    "fake",
+    "local"
+  ],
   "author": "Timothy Waldron <tim@waldron.im> (https://waldron.im)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/timwaldron/faker/issues"
   },
   "homepage": "https://github.com/timwaldron/faker#readme",
-  "dependencies": {
-  }
+  "dependencies": {}
 }

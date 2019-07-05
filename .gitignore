@@ -1,1 +1,8 @@
+# NPM Packages
 /node_modules
+
+# Files I need to fix
+**/*.fix
+
+# .yml assets files 
+/assets

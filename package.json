@@ -1,7 +1,7 @@
 {
   "name": "jfaker",
-  "version": "1.0.0",
-  "description": "Generate randomized data in over 70 different categories",
+  "version": "1.1.0",
+  "description": "Generate randomized data in over 130 different categories",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

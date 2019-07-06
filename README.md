@@ -1,5 +1,98 @@
 # jfaker
-Generate fake data, great for databases! Ported from stympy's Ruby gem: (https://github.com/stympy/faker)
+Generate fake data, great for databases! Ported from stympy's Ruby gem: https://github.com/stympy/faker  
+
+# v1.1.0
+
+Additional 63 categories added.
+
+|A - F|G - O|P - Z|
+|:---:|:---:|:---:|
+|back_to_the_future|game|parks_and_rec|
+|bank|game_of_thrones|princess_bride|
+|bojack_horseman|ghostbusters|programming_language|
+|breaking_bad|grateful_dead|rick_and_morty|
+|buffy|greek_philosophers|rupaul|
+|chuck_norris|hacker|shakespeare|
+|color|hey_arnold|silicon_valley|
+|commerce|hitchhikers_guide_to_the_galaxy|simpsons|
+|community|hobbit|sonic_the_hedgehog|
+|company|house|source|
+|construction|how_i_met_your_mother|south_park|
+|cosmere|job|stargate|
+|crypto_coin|kpop|stranger_thing|
+|dc_comics|lebowski|stripe|
+|dr_who|lord_of_the_rings|sword_art_online|
+|dumb_and_dumber|lorem|the_expanse|
+|dune|michael_scott|the_it_crowd|
+|esport|music|twin_peaks|
+|fallout|name|v_for_vendetta|
+|friends|nation|world_of_warcraft|
+|new_girl|zelda|
+|overwatch|
+
+back_to_the_future
+bank
+bojack_horseman
+breaking_bad
+buffy
+chuck_norris
+color
+commerce
+community
+company
+construction
+cosmere
+crypto_coin
+dc_comics
+dr_who
+dumb_and_dumber
+dune
+esport
+fallout
+friends
+game
+game_of_thrones
+ghostbusters
+grateful_dead
+greek_philosophers
+hacker
+hey_arnold
+hitchhikers_guide_to_the_galaxy
+hobbit
+house
+how_i_met_your_mother
+job
+kpop
+lebowski
+lord_of_the_rings
+lorem
+michael_scott
+music
+name
+nation
+new_girl
+overwatch
+parks_and_rec
+princess_bride
+programming_language
+rick_and_morty
+rupaul
+shakespeare
+silicon_valley
+simpsons
+sonic_the_hedgehog
+source
+south_park
+stargate
+stranger_thing
+stripe
+sword_art_online
+the_expanse
+the_it_crowd
+twin_peaks
+v_for_vendetta
+world_of_warcraft
+zelda
 
 # Usage
 Install the package
@@ -20,7 +113,7 @@ let boop = faker.dog.meme_phrase()
 
 # Notice
 
-Only 78 of 148 categories have been ported so for because of the way I have decided to extract the data and discrepencies with how the data is stored in Stympy's gem.
+132 of 148 categories have been ported so far. Some of them are still missing a few convert/generate functions but I'm slowing getting them implemented.
 
 If you find any bugs or have any suggestions you can let me know here: https://github.com/timwaldron/jfaker/issues
 

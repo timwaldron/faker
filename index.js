@@ -10,7 +10,9 @@ require("fs").readdirSync(__dirname + "/lib/").forEach((file) => {
 
     Object.assign(mx, req);
   } catch (exception) {
-    console.log("Exception requiring module " + file);
+    // console.log("Exception requiring module " + file);
+    // console.log(" " + exception);
+    console.log("mv " + file + " " + file + ".fix")
   }
 });
 

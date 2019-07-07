@@ -1,6 +1,44 @@
 # jfaker
 Generate fake data, great for databases! Ported from stympy's Ruby gem: https://github.com/stympy/faker  
 
+
+# Usage
+Install the package
+
+```
+$ npm i jfaker
+```  
+
+Require then use jfaker in your JavaScript files
+```js
+const faker = require('jfaker')
+```
+
+To view all generators in a category you can use this (I will be creating a doc file explaining each category and the values it has)
+
+```js
+console.log(faker.overwatch)
+```
+
+Will return
+```js
+{ heroes: [Function: heroes],
+  locations: [Function: locations],
+  quotes: [Function: quotes] }
+```
+
+So the random generators you have available for **`overwatch`** are: `heroes()`, `locations()` and `quotes()`.  
+```js
+console.log(faker.overwatch.heroes())
+console.log(faker.overwatch.locations())
+console.log(faker.overwatch.quotes())
+```
+```
+=> Bastion
+=> Volskaya Industries
+=> Oh, let's break it down!
+```
+
 # v1.1.2
 Removed duplicate text in README.md  
 
@@ -9,7 +47,7 @@ Removed duplicate text in README.md
 Additional 63 categories added.
 
 |A - F|G - O|P - Z|
-|:---:|:---:|:---:|
+|:---|:---|:---|
 |back_to_the_future|game|parks_and_rec|
 |bank|game_of_thrones|princess_bride|
 |bojack_horseman|ghostbusters|programming_language|
@@ -30,25 +68,8 @@ Additional 63 categories added.
 |esport|music|twin_peaks|
 |fallout|name|v_for_vendetta|
 |friends|nation|world_of_warcraft|
-|new_girl|zelda|
-|overwatch|
-
-# Usage
-Install the package
-
-```
-$ npm i jfaker
-```  
-
-Require then use jfaker in your JavaScript files
-```js
-const faker = require('jfaker')
-
-
-let pokemon = faker.pokemon.names()
-let boop = faker.dog.meme_phrase()
-
-```
+| |new_girl|zelda
+| |overwatch| |
 
 # Notice
 

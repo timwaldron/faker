@@ -39,6 +39,12 @@ console.log(faker.overwatch.quotes())
 => Oh, let's break it down!
 ```
 
+# Notice
+
+132 of 148 categories have been ported so far. Some of them are still missing a few convert/generate functions but I'm slowing getting them implemented.
+
+If you find any bugs or have any suggestions you can let me know here: https://github.com/timwaldron/jfaker/issues
+
 # v1.1.3
 Updated README.md layout, fixed corrupted libraries.
 
@@ -73,12 +79,6 @@ Additional 63 categories added.
 |friends|nation|world_of_warcraft|
 | |new_girl|zelda
 | |overwatch| |
-
-# Notice
-
-132 of 148 categories have been ported so far. Some of them are still missing a few convert/generate functions but I'm slowing getting them implemented.
-
-If you find any bugs or have any suggestions you can let me know here: https://github.com/timwaldron/jfaker/issues
 
 # Categories (v1.0.0)
 

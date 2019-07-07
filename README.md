@@ -1,6 +1,9 @@
 # jfaker
 Generate fake data, great for databases! Ported from stympy's Ruby gem: https://github.com/stympy/faker  
 
+# v1.1.2
+Removed duplicate text in README.md  
+
 # v1.1.0
 
 Additional 63 categories added.

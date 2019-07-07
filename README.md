@@ -39,6 +39,9 @@ console.log(faker.overwatch.quotes())
 => Oh, let's break it down!
 ```
 
+# v1.1.3
+Updated README.md layout, fixed corrupted libraries.
+
 # v1.1.2
 Removed duplicate text in README.md  
 

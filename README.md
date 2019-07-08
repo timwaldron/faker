@@ -45,6 +45,30 @@ console.log(faker.overwatch.quotes())
 
 If you find any bugs or have any suggestions you can let me know here: https://github.com/timwaldron/jfaker/issues
 
+# v1.2.0
+100% implemented the following libraries
+```
+address
+app
+book
+buffy
+coffee
+commerce
+company
+dota
+dune
+job
+markdown
+name
+```
+
+Fixed/not 100% implemented
+```
+bank        Missing functions
+id_number   Missing functions
+lorem       Missing functions
+compass     Disabled while finding solution
+```
 # v1.1.3
 Updated README.md layout, fixed corrupted libraries.
 
